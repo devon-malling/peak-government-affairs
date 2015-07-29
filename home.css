@@ -1,0 +1,22 @@
+@media screen and (max-width: 320px) {
+.mountain-logo {
+	max-width: 60px;
+	float: left;
+}
+.pga-header {
+	margin-top: 30px;
+	margin-left: 5px;
+	font-size: 20px;
+	float: left;
+}
+.home-page {
+	margin-top: 10px;
+}
+.logo-place-holder {
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+	margin-left: 0px;
+	float: left;
+}
+}
