@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Peak Government Affairs</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="home.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<title>Peak Government Affairs</title>
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
 
 </head>
 <body>
@@ -11,24 +13,42 @@
 	<img class="logo-place-holder">		
 	<h4 class="pga-header">Peak Government Affairs</h4>
 		<!-- <div class="nav-bar"></div> -->
-	<nav>
+	<nav class="nav-bar">
 		<a href="">Home</a>
 		<a href="">About</a>
 		<a href="">Services</a>
 		<a href="">Clients</a>
 		<a href="">Contact</a>
 	</nav>
-	<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-        <a href="">Home</a>
-		<a href="">About</a>
-		<a href="">Services</a>
-		<a href="">Clients</a>
-		<a href="">Contact</a>
-    </div>
-  </div>
-</nav>
+
+	<!-- practicing mobile nav -->
+	<div class="mobile-nav">
+			<p>Menu</p>
+    	<div class="menu-btn" id="menu-btn">
+				<!-- <div></div> -->
+				<p>Menu</p>
+				<img class="hamburger-icon" src="hamburger-icon.png">
+				<span></span>
+				<span></span>
+				<span></span>
+     	</div>
+
+    	<div class="responsive-menu">
+        	<ul>
+           		<li>1. Object</li>
+           		<li>2. Object</li>
+        	</ul>
+     	</div>
+	</div>
+<script type="text/javascript">
+	jQuery(function($){
+    	     $( '.menu-btn' ).click(function(){
+    	     $('.responsive-menu').toggleClass('expand')
+    	     })
+        })
+</script>
+<img src="mountain-logo.jpg">
+	
 	</div>
 </body>
 </html>
