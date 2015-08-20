@@ -1,11 +1,11 @@
 @media screen and (min-width: 320px) {
 .home-page {
 	margin-top: 10px;
-	font-family: sans-serif;
+	/*font-family: sans-serif;*/
 	display: block;
 }
 p {
-	font-family: "Verlag A", "Verlag B", helvetica, sans-serif;
+	/*font-family: "Verlag A", "Verlag B", helvetica, sans-serif;*/
 	float: left;
 	/*margin-top: 10px;*/
 	/*margin-right: 70%;*/
@@ -17,16 +17,20 @@ p {
 .contact-bar {
 	width: 100%;
 	height: 150px;
-	background-color: #565656;
+	background-color: #006699;
 }
 .contact-bar p {
 	color:white;
-	font-size: 40px;
-	padding-left:10px;
+	font-size: 90px;
+	padding-left:20px;
 	margin: 0;	
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
+	font-family: 'Playfair Display', serif;
+	letter-spacing: 5px;
+	font-weight: lighter;
+	/*font-style: italic;*/
 }
 .responsive-contact-menu {
 	display: none;
@@ -38,45 +42,6 @@ p {
 	position: absolute;
 	z-index: 1000;
 	/*margin-top: 150px;*/
-}
-/*----------------------------------------*/
-.header-logo-container {
-	background-color: white;
-	width: 100%; 
-	/*overflow: auto;*/
-	border: 1px solid transparent;
-	height: 360px;
-	/*position: relative;*/
-
-}
-.header-logo-place-holder {
-	background-color: #babac0;
-	width: 300px;
-	height: 300px;
-	border-radius: 160px;
-	float: left;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-}
-.pga-header {
-	/*position:relative;*/
-	/*margin:0;*/
-	margin-top: 100px;
-	/*margin-top: 30px;*/
-	margin-bottom: 0px;
-	font-size: 50px;
-	font-family: Arial;
-	
-	/*text-align: center;*/
-	/*padding: 50px;*/
-	float: left;
-	/*display: block;*/
-}
-.logo-phrase {
-	margin:0;
-	float: left;
-	font-size: 30px;	
 }
 /*---------------------------------------*/
 .mobile-nav {
@@ -101,7 +66,7 @@ p {
 	height: 10px;
 	border-radius: 10px;
 	margin-bottom: 11px;
-	background: black;
+	background: #3366CC;
 
 
 }
@@ -146,32 +111,35 @@ footer p {
 	/*background-color: #B8B8B8;*/
 	/*z-index: 1;*/
 }
-.effective-phrase {
+/*.effective-phrase {
 	width: 100%;
 	height: 90px;
-	background-color: #86869A;
-}
+	background-color: #003366;
+}*/
 .home-page-paragraph {
 	font-size: 50px;
+	font-weight: lighter;
+	color: #4D4D4D;
+	font-family: sans-serif;
 }
 /*---------------------------------------*/
 /*SERVICES PAGE SPECIFIC STYLES*/
 .services-logo {
-	font-size: 50px;
+	font-size: 80px;
+	font-weight: ;
+	font-family: 'Silica W00','Palatino Linotype',serif;
 }
 .services-headers {
 	font-size: 40px;
 }
 .services-paragraphs {
-	
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 300;
 }
 
 
 /*----------------------------------------*/
 /*CLIENTS PAGE SPECIFIC STYLES*/
-.logo {
-	
-}
 
 
 
