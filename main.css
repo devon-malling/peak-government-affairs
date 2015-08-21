@@ -104,8 +104,8 @@ footer p {
 }
 /*-------------------------------------*/
 /*HOME PAGE SPECIFIC STYLES*/
-.home-page-image {
-	width: 60em;
+.home-page-image img {
+	width: 100%;
 	/*width: 100%;*/
 	/*height: 600px;*/
 	/*background-color: #B8B8B8;*/
@@ -124,13 +124,29 @@ footer p {
 }
 /*---------------------------------------*/
 /*SERVICES PAGE SPECIFIC STYLES*/
+.services-image {
+	width: 100%;
+	height: 700px;
+	background: 
+
+    linear-gradient(
+      rgba(0, 102, 153, 0.43), 
+      rgba(0, 102, 153, 0.43)
+    ),
+
+    url(photos/capitol-building.jpg);
+    background-size: cover;
+}
 .services-logo {
 	font-size: 80px;
-	font-weight: ;
-	font-family: 'Silica W00','Palatino Linotype',serif;
+	font-weight: 300;
+	font-family: 'Merriweather', serif;
+
 }
 .services-headers {
 	font-size: 40px;
+	font-family: 'Merriweather', serif;
+	font-weight: 300;
 }
 .services-paragraphs {
 	font-family: 'Open Sans',sans-serif;
