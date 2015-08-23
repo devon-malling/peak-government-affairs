@@ -1,7 +1,7 @@
 $(document).on('ready', function() { 
 	jQuery(function($){
-		$('.contact-bar').click(function(){
-			$('.responsive-contact-menu').toggleClass('expand')
+		$('.hamburger-icon').click(function(){
+			$('.responsive-nav-menu').toggleClass('expand')
 		})
 	})
 	jQuery(function($){
