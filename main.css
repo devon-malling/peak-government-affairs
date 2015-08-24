@@ -103,20 +103,20 @@ footer p {
 }
 /*---------------------------------------*/
 /*SERVICES PAGE SPECIFIC STYLES*/
-.services-image {
+.service-page-image {
 	width: 100%;
 	height: 700px;
 	background: 
 
     linear-gradient(
-      rgba(0, 102, 153, 0.43), 
-      rgba(0, 102, 153, 0.43) 
+      rgba(0, 102, 153, 0.6), 
+      rgba(0, 102, 153, 0.6) 
     ),
 
     url(photos/capitol-building.jpg);
     background-size: cover;
 }
-.services-logo {
+.services-header {
 	font-size: 80px;
 	font-weight: 300;
 	font-family: 'Merriweather', serif;
@@ -135,7 +135,35 @@ footer p {
 
 /*----------------------------------------*/
 /*CLIENTS PAGE SPECIFIC STYLES*/
+.client-page-image {
+	width: 100%;
+	height: 700px;
+	background: 
 
+    linear-gradient(
+      rgba(0, 102, 153, 0.3), 
+      rgba(0, 102, 153, 0.3) 
+    ),
+
+    url(photos/client-page-image-city.jpg);
+    background-size: cover;
+}
+.clients-header {
+	font-size: 80px;
+	font-weight: 300;
+	font-family: 'Merriweather', serif;
+	margin-left: 30px;
+}
+.trade-marks {
+	margin: auto;
+    width: 50%;
+    padding: 10px;
+
+}
+.trade-marks img {
+	width: 100%;
+	padding: 30px;
+}
 
 
 
