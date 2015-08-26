@@ -164,6 +164,13 @@ footer p {
 	width: 100%;
 	padding: 30px;
 }
+.enlarged-img {
+	width: 87%;
+	padding-right: 50px;
+}
+.slightly-enlarged-img {
+	width: 60%;
+}
 
 
 
