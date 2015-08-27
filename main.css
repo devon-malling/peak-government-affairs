@@ -6,10 +6,10 @@
 }
 p {
 	/*font-family: "Verlag A", "Verlag B", helvetica, sans-serif;*/
-	float: left;
+	/*float: left;*/
 	/*margin-top: 10px;*/
 	/*margin-right: 70%;*/
-	margin-left: 4%;
+	/*margin-left: 4%;*/
 	/*text-align: vertical;*/
 }
 /*-----------------------------------------*/
@@ -73,7 +73,7 @@ footer {
 }
 footer p {
 	margin: 0;
-	margin-left: 200px;
+	text-align: center;
 	font-size: 30px;
 	color: white;
 	position: relative;
@@ -100,6 +100,31 @@ footer p {
 	font-weight: lighter;
 	color: #4D4D4D;
 	font-family: sans-serif;
+	text-align: center;
+}
+/*---------------------------------------*/
+/*ABOUT PAGE STYLES*/
+.sol-about-page-img {
+	width: 700px;
+	margin: auto;
+	margin-top: 40px;
+}
+.sol-about-page-img img {
+	width: 100%;
+}
+.about-page-header {
+	text-align: center;
+	font-size: 60px;
+	font-weight: 300;
+	font-family: 'Merriweather', serif;
+	color: #222;
+}
+.about-page-p {
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 300;
+	font-size: 60px;
+	text-align: center;
+	color: #666;
 }
 /*---------------------------------------*/
 /*SERVICES PAGE SPECIFIC STYLES*/
@@ -130,6 +155,7 @@ footer p {
 .services-paragraphs {
 	font-family: 'Open Sans',sans-serif;
 	font-weight: 300;
+	text-align: center;
 }
 
 
@@ -141,12 +167,23 @@ footer p {
 	background: 
 
     linear-gradient(
-      rgba(0, 102, 153, 0.3), 
-      rgba(0, 102, 153, 0.3) 
+      rgba(0, 102, 153, 0.8), 
+      rgba(0, 102, 153, 0.5) 
     ),
 
     url(photos/client-page-image-city.jpg);
     background-size: cover;
+}
+.main-header {
+	position: absolute;
+}
+.main-header h1 {
+	color: #fff;
+	font-size: 80px;
+	text-align: center;
+	position: relative;
+	margin-top: 200px;
+	font-family: 'Merriweather', serif; 
 }
 .clients-header {
 	font-size: 80px;
