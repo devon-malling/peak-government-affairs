@@ -102,9 +102,14 @@ footer p {
 }
 /*-------------------------------------*/
 /*HOME PAGE SPECIFIC STYLES*/
-.home-page-image img {
-	width: 100%;
+.home-page-image {
+	width: 80%;
+	margin: auto;
+	margin-top: 50px;
 	margin-bottom: 150px;
+}
+.home-page-image img{
+	width: 100%;
 }
 .sub-header {
 	color: #006699;
@@ -114,11 +119,11 @@ footer p {
 	text-align: center;	
 }
 .home-page-paragraph {
-	font-size: 50px;
-	font-weight: lighter;
-	color: #4D4D4D;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 300;
+	font-size: 60px;
 	text-align: center;
+	color: #666;
 }
 /*---------------------------------------*/
 /*ABOUT PAGE STYLES*/
@@ -173,7 +178,9 @@ footer p {
 .services-paragraphs {
 	font-family: 'Open Sans',sans-serif;
 	font-weight: 300;
+	font-size: 60px;
 	text-align: center;
+	color: #666;
 }
 
 
