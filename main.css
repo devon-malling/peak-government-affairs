@@ -67,6 +67,10 @@ p {
 	z-index: 1000;
 	/*margin-top: 150px;*/
 }
+.responsive-nav-menu a {
+	text-decoration: none;
+	color: inherit;
+}
 .responsive-nav-menu li {
 	list-style: none;
 	margin-bottom: 160px;
@@ -105,7 +109,7 @@ footer p {
 .home-page-image {
 	width: 80%;
 	margin: auto;
-	margin-top: 50px;
+	margin-top: 120px;
 	margin-bottom: 150px;
 }
 .home-page-image img{
@@ -130,17 +134,20 @@ footer p {
 .sol-about-page-img {
 	width: 700px;
 	margin: auto;
-	margin-top: 40px;
+	margin-top: 120px;
 }
 .sol-about-page-img img {
 	width: 100%;
 }
 .about-page-header {
+	margin-top: 150px;
+	margin-bottom: 150px;
 	text-align: center;
-	font-size: 60px;
+	font-size: 70px;
 	font-weight: 300;
 	font-family: 'Merriweather', serif;
-	color: #222;
+	color: #474747;
+	/*color: #006699;*/
 }
 .about-page-p {
 	font-family: 'Open Sans',sans-serif;
@@ -151,35 +158,53 @@ footer p {
 }
 /*---------------------------------------*/
 /*SERVICES PAGE SPECIFIC STYLES*/
+.services-info {
+	margin-left: 40px;
+	margin-right: 40px;
+}
 .service-page-image {
 	width: 100%;
 	height: 700px;
 	background: 
 
     linear-gradient(
-      rgba(0, 102, 153, 0.6), 
-      rgba(0, 102, 153, 0.6) 
+      rgba(255, 255, 255, 0.89), 
+      rgba(255, 255, 255, 0.89)
     ),
 
     url(photos/capitol-building.jpg);
     background-size: cover;
 }
-.services-header {
+.services-page-main-header {
+position: absolute;
+}
+.services-page-main-header h1 {
+	color: #666;
 	font-size: 80px;
+	text-align: center;
+	position: relative;
+	margin-top: 150px;
 	font-weight: 300;
-	font-family: 'Merriweather', serif;
+	font-family: 'Merriweather', serif; 
+	line-height: 140px;
 
 }
+.services-page-main-header span {
+	color: #006699;
+}
 .services-headers {
-	font-size: 40px;
+	margin-top: 200px;
+	font-size: 70px;
 	font-family: 'Merriweather', serif;
 	font-weight: 300;
+	color: #006699;
+
 }
 .services-paragraphs {
 	font-family: 'Open Sans',sans-serif;
 	font-weight: 300;
-	font-size: 60px;
-	text-align: center;
+	font-size: 50px;
+	/*text-align: center;*/
 	color: #666;
 }
 
@@ -210,15 +235,21 @@ footer p {
 	margin-top: 200px;
 	font-weight: 300;
 	font-family: 'Merriweather', serif; 
+
 }
 .main-header span {
 	color: #006699;
 }
 .clients-header {
-	font-size: 80px;
+	width: 50%;
+	margin: auto;
+	font-size: 100px;
 	font-weight: 300;
 	font-family: 'Merriweather', serif;
 	text-align: center;
+	margin-top: 140px;
+	padding-bottom: 140px;
+	border-bottom: 4px solid black;
 }
 .trade-marks {
 	margin: auto;
