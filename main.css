@@ -1,23 +1,354 @@
-@media screen and (min-width: 320px) {
+
+@media only screen and (max-width: 767px) {
 .home-page {
-	margin-top: 10px;
+	margin-top: 0px;
 	/*font-family: sans-serif;*/
-	display: block;
-}
-p {
-	/*font-family: "Verlag A", "Verlag B", helvetica, sans-serif;*/
-	/*float: left;*/
-	/*margin-top: 10px;*/
-	/*margin-right: 70%;*/
-	/*margin-left: 4%;*/
-	/*text-align: vertical;*/
+	/*display: block;*/
 }
 /*-----------------------------------------*/
 /*EVERY PAGE HAS THESE STYLES*/
 .nav-bar {
 	position: relative;
 	width: 100%;
-	height: 150px;
+	height: 60px;
+	background-color: #006699;
+}
+.nav-bar p {
+	width: 200px;
+	color:white;
+	font-size: 40px;
+	padding-left:20px;
+	margin: 0;	
+	position: relative;
+	/*top: 50%;
+	transform: translateY(-50%);*/
+	font-family: 'Playfair Display', serif;
+	letter-spacing: 5px;
+	font-weight: lighter;
+	float: left;
+	/*font-style: italic;*/
+}
+.hamburger-icon {
+	margin-top: 15px;
+	position: absolute;
+	/*top: 50%;
+ 	transform: translateY(-50%);*/
+	margin-left: 80%;
+	/*margin-top: 50px;*/
+	float:left;
+	vertical-align: center;
+	/*margin: 20px 10px ;*/
+}
+.hamburger-icon div {
+	width: 40px;
+	height: 5px;
+	border-radius: 10px;
+	margin-bottom: 5px;
+	background: white;
+}
+.responsive-nav-menu {
+	display: none;
+	font-size: 50px;
+	width: 96%;
+	height: 100%;
+	color: white; 
+	background: 
+
+    linear-gradient(
+      rgba(0, 102, 153, 0.96), 
+      rgba(51, 204, 255, 0.96)); 
+	position: absolute;
+	z-index: 1000;
+	/*margin-top: 150px;*/
+}
+.responsive-nav-menu a {
+	text-decoration: none;
+	color: inherit;
+}
+.responsive-nav-menu li {
+	list-style: none;
+	margin-bottom: 60px;
+	margin-left: 20px;
+	font-weight: 300;
+	font-family: 'Open Sans',sans-serif;
+	font-size: 20px;
+}
+.responsive-nav-menu li:first-child {
+	margin-top: 30px;
+}
+.expand {
+	display: block;
+}
+/*---------------------------------------*/
+footer {
+	width: 100%;
+	height: 40px;
+	background-color: #86869a;
+	float: left;
+	text-align: center;
+	
+}
+footer p {
+	margin: 0;
+	text-align: center;
+	font-size: 10px;
+	color: white;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+}
+/*-------------------------------------*/
+/*HOME PAGE SPECIFIC STYLES*/
+.home-page-image {
+	width: 80%;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.home-page-image img{
+	width: 100%;
+}
+.sub-header {
+	color: #006699;
+	font-size: 30px;
+	font-weight: 300;
+	font-family: 'Merriweather', serif;
+	text-align: center;	
+}
+.home-page-paragraph {
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	text-align: center;
+	color: #666;
+}
+/*---------------------------------------*/
+/*ABOUT PAGE STYLES*/
+.sol-about-page-img {
+	width: 80%;
+	margin: auto;
+	margin-top: 30px;
+}
+.sol-about-page-img img {
+	width: 100%;
+}
+.about-page-header {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 300;
+	font-family: 'Merriweather', serif;
+	color: #474747;
+	/*color: #006699;*/
+}
+.about-page-p {
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	text-align: center;
+	color: #666;
+}
+/*---------------------------------------*/
+
+/*SERVICES PAGE SPECIFIC STYLES*/
+.services-info {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.service-page-image {
+	width: 100%;
+	height: 290px;
+	background: 
+
+    linear-gradient(
+      rgba(255, 255, 255, 0.89), 
+      rgba(255, 255, 255, 0.89)
+    ),
+
+    url(photos/capitol-building.jpg);
+    background-size: cover;
+}
+.services-page-main-header {
+	position: absolute;
+}
+.services-page-main-header h1 {
+	color: #666;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	margin-top: 60px;
+	font-weight: 300;
+	font-family: 'Merriweather', serif; 
+	line-height: 60px;
+
+}
+.services-page-main-header span {
+	color: #006699;
+}
+.services-headers {
+	margin-top: 60px;
+	font-size: 30px;
+	font-family: 'Merriweather', serif;
+	font-weight: 300;
+	color: #006699;
+
+}
+.services-paragraphs {
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	/*text-align: center;*/
+	color: #666;
+}
+
+
+/*----------------------------------------*/
+/*CLIENTS PAGE SPECIFIC STYLES*/
+.client-page-image {
+	width: 100%;
+	height: 300px;
+	background: 
+
+    linear-gradient(
+      rgba(255, 255, 255, 0.9), 
+      rgba(255, 255, 255, 0.9)
+    ),
+
+    url(photos/client-page-image-city.jpg);
+    background-size: cover;
+}
+.main-header {
+	position: absolute;
+}
+.main-header h1 {
+	color: #666;
+	font-size: 34px;
+	text-align: center;
+	position: relative;
+	margin-top: 100px;
+	font-weight: 300;
+	font-family: 'Merriweather', serif; 
+
+}
+.main-header span {
+	color: #006699;
+}
+.clients-header {
+	width: 50%;
+	margin: auto;
+	font-size: 50px;
+	font-weight: 300;
+	font-family: 'Merriweather', serif;
+	text-align: center;
+	margin-top: 40px;
+	padding-bottom: 40px;
+	border-bottom: 2px solid black;
+}
+.trade-marks {
+	margin: auto;
+    width: 50%;
+    padding: 10px;
+
+}
+.trade-marks img {
+	width: 100%;
+	padding: 15px;
+}
+.enlarged-img {
+	width: 87%;
+	padding-right: 25px;
+}
+.slightly-enlarged-img {
+	width: 60%;
+}
+/*-----------------------------------------*/
+/*PGA PERSONNEL PAGE STYLES*/
+/*.pga-full-header {
+	position: absolute;
+}*/
+/*.pga-full-header h1{
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	line-height: 40px;
+	position: relative;
+}*/
+.personnel-page-image{
+	width: 100%;
+	height: 300px;
+	background: 
+
+    linear-gradient(
+      rgba(255, 255, 255, 0.89), 
+      rgba(255, 255, 255, 0.89)
+    ),
+
+    url(photos/american-flag.jpg);
+    background-size: cover;
+}
+.personnel-work-name {
+	margin-top: 10px;
+	font-size: 30px;
+	font-family: 'Merriweather', serif;
+	font-weight: 300;
+	color: #006699;
+	text-align: center;
+
+}
+.personnel-work-title {
+	margin-top: 0px;
+	font-size: 30px;
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 300;
+	color: #666;
+	text-align: center;
+
+}
+/*-------------------------------------------*/
+/*CONTACT PAGE STYLES*/
+.contact-page-image {
+	width: 100%;
+	height: 300px;
+	background: 
+
+    linear-gradient(
+      rgba(255, 255, 255, 0.9), 
+      rgba(255, 255, 255, 0.9)
+    ),
+
+    url(photos/client-page-image-city.jpg);
+    background-size: cover;
+}
+.contact-pga-title {
+	color: #006699;
+	font-size: 20px;
+	font-weight: 300;
+	font-family: 'Merriweather', serif;
+	text-align: center;
+}
+
+}
+
+
+
+
+
+
+
+/*-----------------------------------------------*/
+/*BEGIN MEDIA QUERIES FOR TABLET*/
+
+
+
+
+@media only screen and (min-width: 768px) {
+/*EVERY PAGE HAS THESE STYLES*/
+.nav-bar {
+	position: relative;
+	width: 100%;
+	height: 10px;
 	background-color: #006699;
 }
 .nav-bar p {
@@ -226,6 +557,7 @@ position: absolute;
 }
 .main-header {
 	position: absolute;
+
 }
 .main-header h1 {
 	color: #666;
@@ -254,16 +586,16 @@ position: absolute;
 .trade-marks {
 	margin: auto;
     width: 50%;
-    padding: 10px;
+    padding: 5px;
 
 }
 .trade-marks img {
-	width: 100%;
-	padding: 30px;
+	width: 97%;
+	padding: 15px;
 }
 .enlarged-img {
 	width: 87%;
-	padding-right: 50px;
+	padding-right: 10px;
 }
 .slightly-enlarged-img {
 	width: 60%;
@@ -311,13 +643,6 @@ position: absolute;
 	text-align: center;
 
 }
-
-
-/*end of media querie*/
 }
-
-
-
-
 
 
