@@ -12,17 +12,18 @@
 	width: 100%;
 	height: 60px;
 	background-color: #006699;
+	margin-bottom: 50px;
 }
 .nav-bar p {
 	width: 200px;
 	color:white;
-	font-size: 40px;
+	font-size: 18px;
 	padding-left:20px;
-	margin: 0;	
+	margin-top: 15px;	
 	position: relative;
 	/*top: 50%;
 	transform: translateY(-50%);*/
-	font-family: 'Playfair Display', serif;
+	font-family: 'Open Sans',sans-serif;
 	letter-spacing: 5px;
 	font-weight: lighter;
 	float: left;
@@ -79,6 +80,36 @@
 .expand {
 	display: block;
 }
+.pga-logo {
+	/*position: absolute;*/
+}
+.pga-letters {
+	/*font-family: 'Cinzel', serif;*/
+	font-family: 'Playfair Display SC', serif;
+	text-align: center;
+	width: 170px;
+	margin: auto;
+	padding-bottom: 20px;
+	border-bottom: 1px solid black;
+	margin-top: 35px;
+	margin-bottom: 10px;
+	font-size: 40px;
+	/*color: #006699;*/
+}
+.pga-sentance {
+	font-family: 'Playfair Display SC', serif;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 1px;
+}
+.pga-catchphrase {
+
+	font-family: 'Playfair Display SC', serif;
+	text-align: center;
+	margin-top: 5px;
+	font-size: 15px;
+	color: #666;
+}
 /*---------------------------------------*/
 footer {
 	width: 100%;
@@ -131,7 +162,7 @@ footer p {
 	margin-top: 30px;
 }
 .sol-about-page-img img {
-	width: 100%;
+	width: 100%;     
 }
 .about-page-header {
 	margin-top: 50px;
@@ -163,12 +194,14 @@ footer p {
 	background: 
 
     linear-gradient(
-      rgba(255, 255, 255, 0.89), 
-      rgba(255, 255, 255, 0.89)
+      rgba(255, 255, 255, 0.9), 
+      rgba(255, 255, 255, 1)
     ),
 
-    url(photos/capitol-building.jpg);
+    url(photos/capitol-building.jpg) no-repeat;
     background-size: cover;
+    background-position: center;
+	border: 1px solid white;
 }
 .services-page-main-header {
 	position: absolute;
@@ -208,16 +241,17 @@ footer p {
 /*CLIENTS PAGE SPECIFIC STYLES*/
 .client-page-image {
 	width: 100%;
-	height: 300px;
+	height: 500px;
 	background: 
 
     linear-gradient(
-      rgba(255, 255, 255, 0.9), 
-      rgba(255, 255, 255, 0.9)
+      rgba(255, 255, 255, 1), 
+      rgba(255, 255, 255, 0.8)
     ),
 
     url(photos/client-page-image-city.jpg);
     background-size: cover;
+    border: 1px solid transparent;
 }
 .main-header {
 	position: absolute;
@@ -325,7 +359,7 @@ footer p {
 	color: #006699;
 	font-size: 20px;
 	font-weight: 300;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Playfair Display SC', serif;
 	text-align: center;
 }
 .contact-address {
@@ -373,304 +407,5 @@ footer p {
 
 @media only screen and (min-width: 768px) {
 /*EVERY PAGE HAS THESE STYLES*/
-.nav-bar {
-	position: relative;
-	width: 100%;
-	height: 10px;
-	background-color: #006699;
-}
-.nav-bar p {
-	width: 400px;
-	color:white;
-	font-size: 90px;
-	padding-left:20px;
-	margin: 0;	
-	position: relative;
-	/*top: 50%;
-	transform: translateY(-50%);*/
-	font-family: 'Playfair Display', serif;
-	letter-spacing: 5px;
-	font-weight: lighter;
-	float: left;
-	/*font-style: italic;*/
-}
-.hamburger-icon {
-	position: absolute;
-	/*top: 50%;
- 	transform: translateY(-50%);*/
-	margin-left: 800px;
-	margin-top: 50px;
-	float:left;
-	vertical-align: center;
-	/*margin: 20px 10px ;*/
-}
-.hamburger-icon div {
-	width: 70px;
-	height: 10px;
-	border-radius: 10px;
-	margin-bottom: 11px;
-	background: white;
-}
-.responsive-nav-menu {
-	display: none;
-	font-size: 50px;
-	width: 98%;
-	height: 100%;
-	color: white; 
-	background: 
-
-    linear-gradient(
-      rgba(0, 102, 153, 0.96), 
-      rgba(51, 204, 255, 0.96)); 
-	position: absolute;
-	z-index: 1000;
-	/*margin-top: 150px;*/
-}
-.responsive-nav-menu a {
-	text-decoration: none;
-	color: inherit;
-}
-.responsive-nav-menu li {
-	list-style: none;
-	margin-bottom: 160px;
-	margin-left: 120px;
-	font-weight: 300;
-	font-family: 'Open Sans',sans-serif;
-	font-size: 60px;
-}
-.responsive-nav-menu li:first-child {
-	margin-top: 90px;
-}
-.expand {
-	display: block;
-}
-/*---------------------------------------*/
-footer {
-	width: 100%;
-	height: 140px;
-	background-color: #86869a;
-	float: left;
-	text-align: center;
-	
-}
-footer p {
-	margin: 0;
-	text-align: center;
-	font-size: 30px;
-	color: white;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-	text-align: center;
-}
-/*-------------------------------------*/
-/*HOME PAGE SPECIFIC STYLES*/
-.home-page-image {
-	width: 80%;
-	margin: auto;
-	margin-top: 120px;
-	margin-bottom: 150px;
-}
-.home-page-image img{
-	width: 100%;
-}
-.sub-header {
-	color: #006699;
-	font-size: 80px;
-	font-weight: 300;
-	font-family: 'Merriweather', serif;
-	text-align: center;	
-}
-.home-page-paragraph {
-	font-family: 'Open Sans',sans-serif;
-	font-weight: 300;
-	font-size: 60px;
-	text-align: center;
-	color: #666;
-}
-/*---------------------------------------*/
-/*ABOUT PAGE STYLES*/
-.sol-about-page-img {
-	width: 700px;
-	margin: auto;
-	margin-top: 120px;
-}
-.sol-about-page-img img {
-	width: 100%;
-}
-.about-page-header {
-	margin-top: 150px;
-	margin-bottom: 150px;
-	text-align: center;
-	font-size: 70px;
-	font-weight: 300;
-	font-family: 'Merriweather', serif;
-	color: #474747;
-	/*color: #006699;*/
-}
-.about-page-p {
-	font-family: 'Open Sans',sans-serif;
-	font-weight: 300;
-	font-size: 60px;
-	text-align: center;
-	color: #666;
-}
-/*---------------------------------------*/
-/*SERVICES PAGE SPECIFIC STYLES*/
-.services-info {
-	margin-left: 40px;
-	margin-right: 40px;
-}
-.service-page-image {
-	width: 100%;
-	height: 700px;
-	background: 
-
-    linear-gradient(
-      rgba(255, 255, 255, 0.89), 
-      rgba(255, 255, 255, 0.89)
-    ),
-
-    url(photos/capitol-building.jpg);
-    background-size: cover;
-}
-.services-page-main-header {
-position: absolute;
-}
-.services-page-main-header h1 {
-	color: #666;
-	font-size: 80px;
-	text-align: center;
-	position: relative;
-	margin-top: 150px;
-	font-weight: 300;
-	font-family: 'Merriweather', serif; 
-	line-height: 140px;
 
 }
-.services-page-main-header span {
-	color: #006699;
-}
-.services-headers {
-	margin-top: 200px;
-	font-size: 70px;
-	font-family: 'Merriweather', serif;
-	font-weight: 300;
-	color: #006699;
-
-}
-.services-paragraphs {
-	font-family: 'Open Sans',sans-serif;
-	font-weight: 300;
-	font-size: 50px;
-	/*text-align: center;*/
-	color: #666;
-}
-
-
-/*----------------------------------------*/
-/*CLIENTS PAGE SPECIFIC STYLES*/
-.client-page-image {
-	width: 100%;
-	height: 700px;
-	background: 
-
-    linear-gradient(
-      rgba(255, 255, 255, 0.9), 
-      rgba(255, 255, 255, 0.9)
-    ),
-
-    url(photos/client-page-image-city.jpg);
-    background-size: cover;
-}
-.main-header {
-	position: absolute;
-
-}
-.main-header h1 {
-	color: #666;
-	font-size: 80px;
-	text-align: center;
-	position: relative;
-	margin-top: 200px;
-	font-weight: 300;
-	font-family: 'Merriweather', serif; 
-
-}
-.main-header span {
-	color: #006699;
-}
-.clients-header {
-	width: 50%;
-	margin: auto;
-	font-size: 100px;
-	font-weight: 300;
-	font-family: 'Merriweather', serif;
-	text-align: center;
-	margin-top: 140px;
-	padding-bottom: 140px;
-	border-bottom: 4px solid black;
-}
-.trade-marks {
-	margin: auto;
-    width: 50%;
-    padding: 5px;
-
-}
-.trade-marks img {
-	width: 97%;
-	padding: 15px;
-}
-.enlarged-img {
-	width: 87%;
-	padding-right: 10px;
-}
-.slightly-enlarged-img {
-	width: 60%;
-}
-/*-----------------------------------------*/
-/*PGA PERSONNEL PAGE STYLES*/
-.pga-full-header {
-	position: absolute;
-}
-.pga-full-header h1{
-	text-align: center;
-	font-family: 'Playfair Display', serif;
-	font-size: 30px;
-	line-height: 40px;
-	position: relative;
-}
-.personnel-page-image{
-	width: 100%;
-	height: 700px;
-	background: 
-
-    linear-gradient(
-      rgba(255, 255, 255, 0.89), 
-      rgba(255, 255, 255, 0.89)
-    ),
-
-    url(photos/american-flag.jpg);
-    background-size: cover;
-}
-.personnel-work-name {
-	margin-top: 10px;
-	font-size: 70px;
-	font-family: 'Merriweather', serif;
-	font-weight: 300;
-	color: #006699;
-	text-align: center;
-
-}
-.personnel-work-title {
-	margin-top: 0px;
-	font-size: 70px;
-	font-family: 'Open Sans',sans-serif;
-	font-weight: 300;
-	color: #666;
-	text-align: center;
-
-}
-}
-
-
