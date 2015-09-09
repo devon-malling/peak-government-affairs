@@ -105,9 +105,6 @@ html, body {
 .expand {
 	display: block;
 }
-.pga-logo {
-	/*position: absolute;*/
-}
 .pga-letters {
 	/*font-family: 'Cinzel', serif;*/
 	font-family: 'Playfair Display SC', serif;
@@ -137,7 +134,39 @@ html, body {
 }
 /*-------------------------------------*/
 /*HOME PAGE SPECIFIC STYLES*/
+/*.home-page {
+	width: 100%;
+	height: 100%;
+	background: 
+
+    linear-gradient(
+      rgba(255, 255, 255, 0.5), 
+      rgba(255, 255, 255, 0.8)
+    ),
+
+    url(photos/flag-backlit.jpg) no-repeat;
+    background-size: cover;
+    background-position: right;
+    border: 1px solid white;
+}*/
+.pga-logo-home-page {
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	background: 
+
+    linear-gradient(
+      rgba(255, 255, 255, 0.5), 
+      rgba(255, 255, 255, 0.8)
+    ),
+
+    url(photos/flag-backlit.jpg) no-repeat;
+    background-size: cover;
+    background-position: right;
+    border: 1px solid white;
+}
 .home-page-image {
+	z-index: 2;
 	width: 80%;
 	margin: auto;
 	margin-top: 30px;
@@ -146,6 +175,7 @@ html, body {
 }
 .home-page-image img{
 	width: 100%;
+	border-radius: 10px;
 }
 .sub-header {
 	color: #006699;
