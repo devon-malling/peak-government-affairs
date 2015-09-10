@@ -54,6 +54,12 @@ html, body {
 	float: left;
 	/*font-style: italic;*/
 }
+.desktop-nav-content {
+	display: none;
+}
+.desktop-nav-menu {
+	display: none;
+}
 .hamburger-icon {
 	margin-top: 15px;
 	position: absolute;
@@ -150,13 +156,12 @@ html, body {
     border: 1px solid white;
 }*/
 .pga-logo-home-page {
-	z-index: 1;
 	width: 100%;
 	height: 100%;
 	background: 
 
     linear-gradient(
-      rgba(255, 255, 255, 0.5), 
+      rgba(255, 255, 255, 0.6), 
       rgba(255, 255, 255, 0.8)
     ),
 
@@ -166,7 +171,7 @@ html, body {
     border: 1px solid white;
 }
 .home-page-image {
-	z-index: 2;
+
 	width: 80%;
 	margin: auto;
 	margin-top: 30px;
@@ -197,6 +202,21 @@ html, body {
 }
 /*---------------------------------------*/
 /*ABOUT PAGE STYLES*/
+.pga-logo-about-page {
+	width: 100%;
+	height: 100%;
+	background: 
+
+    linear-gradient(
+      rgba(255, 255, 255, 0.6), 
+      rgba(255, 255, 255, 0.8)
+    ),
+
+    url(photos/colorado-flag.jpg) no-repeat;
+    background-size: cover;
+    background-position: left;
+    border: 1px solid white;
+}
 .sol-about-page-img {
 	width: 80%;
 	margin: auto;
@@ -364,6 +384,21 @@ linear-gradient(to bottom,
     url(photos/american-flag.jpg);
     background-size: cover;
 }*/
+.pga-logo-personnel-page {
+	width: 100%;
+	height: 100%;
+	background: 
+
+    linear-gradient(
+      rgba(255, 255, 255, 0.6), 
+      rgba(255, 255, 255, 0.8)
+    ),
+
+    url(photos/aspens.jpg) no-repeat;
+    background-size: cover;
+    background-position: top;
+    border: 1px solid white;
+}
 .our-personnel-header {
 	width: 70%;
 	margin: auto;
@@ -496,7 +531,7 @@ linear-gradient(to bottom,
 
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-device-width: 1024px) {
 /*EVERY PAGE HAS THESE STYLES*/
 * {
 	margin: 0;
@@ -556,6 +591,12 @@ font-weight: normal;
 	font-weight: lighter;
 	float: left;
 	/*font-style: italic;*/
+}
+.desktop-nav-content {
+	display: none;
+}
+.desktop-nav-menu {
+	display: none;
 }
 .hamburger-icon {
 	margin-top: 20px;
@@ -644,6 +685,21 @@ font-weight: normal;
 }
 /*-------------------------------------*/
 /*HOME PAGE SPECIFIC STYLES*/
+.pga-logo-home-page {
+	width: 100%;
+	height: 100%;
+	background: 
+
+    linear-gradient(
+      rgba(255, 255, 255, 0.6), 
+      rgba(255, 255, 255, 0.8)
+    ),
+
+    url(photos/flag-backlit.jpg) no-repeat;
+    background-size: cover;
+    background-position: right;
+    border: 1px solid white;
+}
 .home-page-image {
 	width: 70%;
 	margin: auto;
@@ -675,6 +731,21 @@ font-weight: normal;
 }
 /*---------------------------------------*/
 /*ABOUT PAGE STYLES*/
+.pga-logo-about-page {
+	width: 100%;
+	height: 100%;
+	background: 
+
+    linear-gradient(
+      rgba(255, 255, 255, 0.6), 
+      rgba(255, 255, 255, 0.8)
+    ),
+
+    url(photos/colorado-flag.jpg) no-repeat;
+    background-size: cover;
+    background-position: left;
+    border: 1px solid white;
+}
 .sol-about-page-img {
 	width: 70%;
 	margin: auto;
@@ -852,6 +923,608 @@ linear-gradient(to bottom,
     url(photos/american-flag.jpg);
     background-size: cover;
 }*/
+.pga-logo-personnel-page {
+	width: 100%;
+	height: 100%;
+	background: 
+
+    linear-gradient(
+      rgba(255, 255, 255, 0.6), 
+      rgba(255, 255, 255, 0.8)
+    ),
+
+    url(photos/aspens.jpg) no-repeat;
+    background-size: cover;
+    background-position: top;
+    border: 1px solid white;
+}
+.our-personnel-header {
+	width: 70%;
+	margin: auto;
+	color: #006699;
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+	margin-top: 60px;
+	font-weight: 300;
+	font-family: 'Merriweather', serif; 
+	border-bottom: 2px solid #006699;
+}
+.pga-personnel-page-header{
+	color: #666;
+	font-size: 15px;
+	text-align: center;
+	position: relative;
+	margin-top: 20px;
+	font-weight: 300;
+	font-family: 'Merriweather', serif; 
+	line-height: 50px;
+}
+.personnel-image {
+	width: 70%;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+}
+.personnel-image img{
+	width: 100%;
+	border-radius: 10px;
+}
+.personnel-work-name {
+	margin-top: 10px;
+	font-size: 40px;
+	font-family: 'Merriweather', serif;
+	font-weight: 300;
+	color: #006699;
+	text-align: center;
+
+}
+/*-------------------------------------------*/
+/*CONTACT PAGE STYLES*/
+.contact-page-image {
+	width: 100%;
+	height: 500px;
+	background: 
+
+    linear-gradient(
+      rgba(255, 255, 255, 0.8), 
+      rgba(255, 255, 255, 0.8)
+    ),
+
+    url(photos/contact-page.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid white;
+}
+.contact-us-header {
+	color: #666;
+	font-size: 19px;
+	text-align: center;
+	position: relative;
+	margin-top: 100px;
+	line-height: 55px;
+	font-weight: 300;
+	font-family: 'Merriweather', serif; 
+}
+.contact-pga-title {
+	color: #006699;
+	font-size: 30px;
+	font-weight: 300;
+	font-family: 'Playfair Display SC', serif;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.contact-address {
+	font-family: 'Open Sans', sans-serif;
+	color: #666;
+	font-size: 25px;
+	text-align: center;
+}
+.contact-email-header {
+	font-family: 'Merriweather', sans-serif;
+	color: #006699;
+	font-size: 25px;
+	float: left;
+	margin-left: 95px;
+	margin-right: 60px;
+	margin-top: 15px;	
+}
+.contact-email-address {
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 10px;
+	color: #666;
+	font-size: 25px;
+	/*float: left;*/
+
+
+}
+.contact-call-header {
+	font-family: 'Merriweather', sans-serif;
+	color: #006699;
+	font-size: 25px;
+	float: left;
+
+	margin-right: 35px;		
+	margin-top: 20px;		
+}
+.contact-call-number {
+	font-family: 'Open Sans', sans-serif;
+	color: #666;
+	font-size: 25px;
+	float: left;
+	margin-top: 15px;		
+}
+}
+
+
+
+
+
+
+
+
+/*Media queries for DESKTOP*/
+@media screen and (min-device-width: 1200px) {
+	* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+
+}
+.wrapper {
+	/*position: absolute;*/
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -50px;
+	/*overflow: auto;*/
+	margin: 2px;
+	background-color: #ebeae8;
+}
+.wrapper a {
+	text-decoration: none;
+	color: inherit;
+}
+.footer, .push {
+	height: 50px;
+}
+.footer {
+	background-color: #86869a;
+	/*margin-top: 30px;*/
+
+}
+h1, h2, h3, h4, h5, h6 { /*reset for mobile browsers */
+
+font-weight: normal;
+
+}
+/*-----------------------------------------*/
+/*EVERY PAGE HAS THESE STYLES*/
+.nav-bar {
+	/*position: relative;*/
+	width: 100%;
+	height: 50px;
+	background-color: #006699;
+	/*margin-bottom: 50px;*/
+}
+.nav-contact-btn {
+	display: none;
+}
+.nav-bar p {
+	/*width: 150px;*/
+	color:white;
+	font-size: 15px;
+	padding-left:20px;
+	margin-top: 12px;	
+	/*position: relative;*/
+	/*top: 50%;
+	transform: translateY(-50%);*/
+	font-family: 'Open Sans',sans-serif;
+	letter-spacing: 2px;
+	font-weight: lighter;
+	float: left;
+}
+.nav-bar p:first-child {
+	/*width: 450px;*/
+	color:white;
+	font-size: 15px;
+	padding-left:20px;
+	margin-top: 12px;	
+	/*position: relative;*/
+	/*top: 50%;
+	transform: translateY(-50%);*/
+	font-family: 'Open Sans',sans-serif;
+	letter-spacing: 2px;
+	font-weight: lighter;
+	float: left;
+	/*font-style: italic;*/
+}
+.hamburger-icon {
+	display: none;
+	margin-top: 20px;
+	position: absolute;
+	/*top: 50%;
+ 	transform: translateY(-50%);*/
+	margin-left: 90%;
+	/*margin-top: 50px;*/
+	float:left;
+	vertical-align: center;
+	/*margin: 20px 10px ;*/
+}
+.hamburger-icon div {
+	width: 45px;
+	height: 7px;
+	border-radius: 10px;
+	margin-bottom: 7px;
+	background: white;
+}
+.responsive-nav-menu {
+	display: none;
+	font-size: 50px;
+	width: 99%;
+	height: 100%;
+	color: white; 
+	background: 
+
+    linear-gradient(
+      rgba(0, 102, 153, 0.99), 
+      rgba(51, 204, 255, 0.99)); 
+	position: absolute;
+	z-index: 1000;
+	/*margin-top: 150px;*/
+}
+.desktop-nav-content {
+	width: 800px;
+	margin: auto;
+}
+.desktop-nav-menu {
+	width: 100%;
+	height: 50px;
+	color: black;
+	font-size: 15px;
+	padding-left:20px;
+	margin-top: 22px;	
+	/*position: relative;*/
+	/*top: 50%;
+	transform: translateY(-50%);*/
+	font-family: 'Open Sans',sans-serif;
+	letter-spacing: 2px;
+	/*font-weight: lighter;*/
+	margin: auto;
+
+}
+.desktop-nav-menu li {
+	list-style: none;
+	float: left;
+	margin-right: 50px;
+	margin-top: 20px;
+}
+.desktop-nav-menu li:first-child {
+	margin-left: 30px;
+}
+.responsive-nav-menu a {
+	text-decoration: none;
+	color: inherit;
+}
+.responsive-nav-menu li {
+	list-style: none;
+	margin-bottom: 60px;
+	/*margin-left: 60px;*/
+	font-weight: 300;
+	font-family: 'Open Sans',sans-serif;
+	font-size: 40px;
+	text-align: center;
+}
+.responsive-nav-menu li:first-child {
+	margin-top: 80px;
+}
+.expand {
+	display: block;
+}
+/*end nav bar-----------------------------*/
+.desktop-wrapper {
+	width: 900px;
+	/*position: absolute;*/
+	margin: auto;
+	background-color: white;
+	height: 100%;
+	padding-bottom: 200px;
+}
+.pga-logo {
+	/*position: absolute;*/
+}
+.pga-letters {
+	/*font-family: 'Cinzel', serif;*/
+	font-family: 'Playfair Display SC', serif;
+	text-align: center;
+	width: 170px;
+	margin: auto;
+	padding-bottom: 20px;
+	border-bottom: 1px solid black;
+	margin-top: 45px;
+	margin-bottom: 10px;
+	font-size: 45px;
+	/*color: #006699;*/
+
+
+}
+.pga-sentance {
+	font-family: 'Playfair Display SC', serif;
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 1px;
+}
+.pga-catchphrase {
+
+	font-family: 'Playfair Display SC', serif;
+	text-align: center;
+	margin-top: 5px;
+	font-size: 15px;
+	color: #191919;
+	margin-bottom: 40px;
+}
+/*-------------------------------------*/
+/*HOME PAGE SPECIFIC STYLES*/
+.pga-logo-home-page {
+	width: 100%;
+	height: 100%;
+	background: 
+
+    linear-gradient(
+      rgba(255, 255, 255, 0.6), 
+      rgba(255, 255, 255, 0.8)
+    ),
+
+    url(photos/flag-backlit.jpg) no-repeat;
+    background-size: cover;
+    background-position: right;
+    border: 1px solid white;
+}
+.home-page-image {
+	width: 30%;
+	/*margin: auto;*/
+	margin-top: 30px;
+	margin-bottom: 50px;
+	float: right;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.home-page-image img{
+	width: 100%;
+	border-radius: 10px;
+}
+.sub-header {
+	color: #006699;
+	font-size: 25px;
+	font-weight: 300;
+	font-family: 'Merriweather', serif;
+	text-align: center;	
+	margin-bottom: 15px;
+	margin-top: 80px;
+	margin-left: 20px;
+}
+.home-page-paragraph {
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	text-align: left;
+	color: #666;
+	line-height: 35px;
+	margin-right: 30px;
+	margin-left: 30px;
+	overflow: hidden;
+}
+/*---------------------------------------*/
+/*ABOUT PAGE STYLES*/
+
+.pga-logo-personnel-page {
+	width: 100%;
+	height: 100%;
+	background: 
+
+    linear-gradient(
+      rgba(255, 255, 255, 0.6), 
+      rgba(255, 255, 255, 0.8)
+    ),
+
+    url(photos/aspens.jpg) no-repeat;
+    background-size: cover;
+    background-position: top;
+    border: 1px solid white;
+}
+.sol-about-page-img {
+	width: 30%;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	float: right;
+	margin-right: 30px;
+	margin-left: 20px;
+	/*margin: auto;*/
+}
+.sol-about-page-img img {
+	width: 100%; 
+	border-radius: 10px;    
+}
+.about-page-header {
+	color: #006699;
+	font-size: 25px;
+	font-weight: 300;
+	font-family: 'Merriweather', serif;
+	text-align: center;	
+	margin-bottom: 15px;
+	margin-top: 80px;
+	margin-left: 20px;
+	/*color: #474747;*/
+	/*color: #006699;*/
+}
+.about-page-p {
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	text-align: left;
+	color: #666;
+	line-height: 35px;
+	margin-right: 30px;
+	margin-left: 30px;
+	/*overflow: hidden;*/
+}
+/*---------------------------------------*/
+
+/*SERVICES PAGE SPECIFIC STYLES*/
+.services-info {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.service-page-image {
+	width: 100%;
+	height: 500px;
+	background: 
+linear-gradient(to bottom, 
+	rgba(255, 255, 255, .2), 
+	rgba(255, 255, 255, .69), 
+	rgba(255, 255, 255, 0.9) 80.0%),
+
+    url(photos/capitol-building-cropped.jpeg) no-repeat;
+    background-size: cover;
+    background-position: top;
+	border: 1px solid white;
+}
+.services-page-main-header {
+/*	position: absolute;
+*/	margin-top: 200px;
+}
+.services-page-main-header h1 {
+	color: #666;
+	font-size: 35px;
+	/*position: relative;*/
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-weight: 300;
+	font-family: 'Merriweather', serif; 
+	line-height: 50px;
+	text-align: center;
+}
+.services-page-main-header span {
+	color: #006699;
+}
+.services-headers {
+	margin-top: 90px;
+	color: #006699;
+	font-size: 22px;
+	font-weight: 300;
+	font-family: 'Merriweather', serif;
+	text-align: left;	
+	margin-bottom: 30px;
+	margin-left: 30px;
+
+}
+.services-paragraphs {
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	text-align: left;
+	color: #666;
+	line-height: 35px;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+
+/*----------------------------------------*/
+/*CLIENTS PAGE SPECIFIC STYLES*/
+.client-page-image {
+	width: 100%;
+	height: 500px;
+	background: 
+
+    linear-gradient(
+      rgba(255, 255, 255, 1), 
+      rgba(255, 255, 255, 0.8)
+    ),
+
+    url(photos/client-page-image-city.jpg) no-repeat;
+    background-size: cover;
+    border: 1px solid white;
+}
+.main-header {
+	/*position: absolute;*/
+}
+.main-header h1 {
+	color: #666;
+	font-size: 34px;
+	text-align: center;
+	/*position: relative;*/
+	margin-top: 120px;
+	line-height: 55px;
+	font-weight: 300;
+	font-family: 'Merriweather', serif; 
+
+}
+.main-header span {
+	color: #006699;
+}
+.clients-header {
+	width: 30%;
+	margin: auto;
+	font-size: 40px;
+	font-weight: 300;
+	font-family: 'Merriweather', serif;
+	text-align: center;
+	margin-top: 50px;
+	padding-bottom: 40px;
+	border-bottom: 2px solid black;
+}
+.trade-marks {
+	margin: auto;
+    width: 20%;
+    padding: 10px;
+
+}
+.trade-marks img {
+	width: 100%;
+	padding: 15px;
+}
+.enlarged-img {
+	width: 57%;
+	padding-right: 25px;
+}
+.slightly-enlarged-img {
+	width: 30%;
+}
+/*-----------------------------------------*/
+/*PGA PERSONNEL PAGE STYLES*/
+/*.pga-full-header {
+	position: absolute;
+}*/
+/*.pga-full-header h1{
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	line-height: 40px;
+	position: relative;
+}*/
+/*.personnel-page-image{
+	width: 100%;
+	height: 300px;
+	background: 
+
+    linear-gradient(
+      rgba(255, 255, 255, 0.89), 
+      rgba(255, 255, 255, 0.89)
+    ),
+
+    url(photos/american-flag.jpg);
+    background-size: cover;
+}*/
+.personnel-top-page-image {
+	width: 20%;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
 .our-personnel-header {
 	width: 70%;
 	margin: auto;
