@@ -123,6 +123,7 @@ html, body {
 	margin-bottom: 10px;
 	font-size: 40px;
 	/*color: #006699;*/
+	/*display: none;*/
 }
 .pga-sentance {
 	font-family: 'Playfair Display SC', serif;
@@ -1290,7 +1291,7 @@ font-weight: normal;
 	padding-bottom: 200px;
 }
 .pga-logo {
-	/*position: absolute;*/
+	margin-top: 100px;
 }
 .pga-letters {
 	/*font-family: 'Cinzel', serif;*/
@@ -1304,27 +1305,35 @@ font-weight: normal;
 	margin-bottom: 10px;
 	font-size: 45px;
 	/*color: #006699;*/
+	display: none;
 
 
 }
 .pga-sentance {
+	margin: auto;
 	font-family: 'Playfair Display SC', serif;
 	text-align: center;
-	font-size: 25px;
-	margin-bottom: 1px;
+	font-size: 35px;
+	width:600px;
+	margin-top: 30px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid black;
 }
 .pga-catchphrase {
-
 	font-family: 'Playfair Display SC', serif;
 	text-align: center;
 	margin-top: 5px;
-	font-size: 15px;
+	font-size: 25px;
 	color: #191919;
 	margin-bottom: 40px;
+	padding-bottom: 50px;
+
 }
 /*-------------------------------------*/
 /*HOME PAGE SPECIFIC STYLES*/
 .pga-logo-home-page {
+	padding-top: 50px;
 	width: 100%;
 	height: 100%;
 	background: 
@@ -1390,6 +1399,7 @@ font-weight: normal;
     background-size: cover;
     background-position: left;
     border: 1px solid white;
+    padding-top: 50px;
 }
 .sol-about-page-img {
 	width: 30%;
@@ -1436,7 +1446,7 @@ font-weight: normal;
 }
 .service-page-image {
 	width: 100%;
-	height: 500px;
+	height: 400px;
 	background: 
 linear-gradient(to bottom, 
 	rgba(255, 255, 255, .2), 
@@ -1447,17 +1457,18 @@ linear-gradient(to bottom,
     background-size: cover;
     background-position: top;
 	border: 1px solid white;
+	padding-top: 100px;
 }
 .services-page-main-header {
 /*	position: absolute;
-*/	margin-top: 200px;
+*/	margin-top: 100px;
 }
 .services-page-main-header h1 {
 	color: #666;
 	font-size: 35px;
 	/*position: relative;*/
 	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-bottom: 0px;
 	font-weight: 300;
 	font-family: 'Merriweather', serif; 
 	line-height: 50px;
@@ -1504,6 +1515,7 @@ linear-gradient(to bottom,
     url(photos/client-page-image-city.jpg) no-repeat;
     background-size: cover;
     border: 1px solid white;
+
 }
 .main-header {
 	/*position: absolute;*/
@@ -1576,6 +1588,7 @@ linear-gradient(to bottom,
     background-size: cover;
     background-position: top;
     border: 1px solid white;
+    padding-top: 50px;
 }
 .personnel-top-page-image {
 	width: 60%;
