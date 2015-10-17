@@ -1,4 +1,4 @@
-
+/*MEDIA QUERIES FOR A PHONE*/
 @media only screen and (max-width: 767px) {
 * {
 	margin: 0;
@@ -123,20 +123,26 @@ html, body {
 	margin-bottom: 10px;
 	font-size: 40px;
 	/*color: #006699;*/
-	/*display: none;*/
+	display: none;
 }
 .pga-sentance {
+	margin: auto;
+	margin-top: 40px;
 	font-family: 'Playfair Display SC', serif;
 	text-align: center;
-	font-size: 20px;
-	margin-bottom: 1px;
+	font-size: 25px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid black;
+	width: 325px;
+	padding-bottom: 20px;
 }
 .pga-catchphrase {
 
 	font-family: 'Playfair Display SC', serif;
 	text-align: center;
 	margin-top: 5px;
-	font-size: 15px;
+	margin-bottom: 20px;
+	font-size: 20px;
 	color: #666;
 }
 /*-------------------------------------*/
@@ -264,9 +270,12 @@ linear-gradient(to bottom,
     background-position: top;
 	border: 1px solid white;
 }
+.pga-logo-services {
+	padding-top: 40px;
+}
 .services-page-main-header {
 	position: absolute;
-	margin-top: 100px;
+	margin-top: 75px;
 }
 .services-page-main-header h1 {
 	color: #666;
@@ -691,21 +700,27 @@ font-weight: normal;
 	margin-bottom: 10px;
 	font-size: 65px;
 	/*color: #006699;*/
+	display: none;
 
 
 }
 .pga-sentance {
+	margin: auto;
+	margin-top: 45px;
 	font-family: 'Playfair Display SC', serif;
 	text-align: center;
-	font-size: 35px;
-	margin-bottom: 1px;
+	font-size: 45px;
+	margin-bottom: 0px;
+	border-bottom: 1px solid black; 
+	width:500px;
+	padding-bottom: 30px;
 }
 .pga-catchphrase {
-
+	padding-top: 20px;
 	font-family: 'Playfair Display SC', serif;
 	text-align: center;
 	margin-top: 5px;
-	font-size: 25px;
+	font-size: 30px;
 	color: #666;
 	margin-bottom: 40px;
 }
