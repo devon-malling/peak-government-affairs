@@ -242,6 +242,10 @@ html, body {
 	color: #474747;
 	/*color: #006699;*/
 }
+.basic-principles-list {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 .about-page-p {
 	font-family: 'Open Sans',sans-serif;
 	font-weight: 300;
@@ -464,6 +468,16 @@ linear-gradient(to bottom,
 	font-weight: 300;
 	color: #006699;
 	text-align: center;
+
+}
+.personnel-work-email {
+	font-family: 'Open Sans',sans-serif;
+	font-size: 19px;
+	font-weight: 300;
+	text-align: center;
+	color: #666;
+	margin-bottom: 15px;
+	margin-top: 10px;
 
 }
 .personnel-work-title {
@@ -807,6 +821,10 @@ font-weight: normal;
 	/*color: #474747;*/
 	/*color: #006699;*/
 }
+.basic-principles-list {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 .about-page-p {
 	font-family: 'Open Sans',sans-serif;
 	font-weight: 300;
@@ -1035,6 +1053,16 @@ linear-gradient(to bottom,
 	font-weight: 300;
 	color: #006699;
 	text-align: center;
+
+}
+.personnel-work-email {
+	font-family: 'Open Sans',sans-serif;
+	font-size: 35px;
+	font-weight: 300;
+	text-align: center;
+	color: #666;
+	margin-bottom: 25px;
+	margin-top: 10px;
 
 }
 .personnel-page-paragraph {
@@ -1441,6 +1469,10 @@ font-weight: normal;
 	/*color: #474747;*/
 	/*color: #006699;*/
 }
+.basic-principles-list {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 .about-page-p {
 	font-family: 'Open Sans',sans-serif;
 	font-weight: 300;
@@ -1661,7 +1693,16 @@ linear-gradient(to bottom,
 	font-weight: 300;
 	color: #006699;
 	text-align: center;
-	padding-bottom: 20px
+	padding-bottom: 5px
+
+}
+.personnel-work-email {
+	font-family: 'Open Sans',sans-serif;
+	font-size: 19px;
+	font-weight: 300;
+	text-align: center;
+	color: #666;
+	margin-bottom: 10px;
 
 }
 .personnel-page-paragraph {
