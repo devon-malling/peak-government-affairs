@@ -356,6 +356,27 @@ linear-gradient(to bottom,
 	padding-bottom: 40px;
 	border-bottom: 2px solid black;
 }
+.client-list {
+	width: 330px;
+	margin: auto;
+	text-align: center;
+	margin-top: 80px;
+	/*margin-left: 40px;*/
+}
+.client-list li {
+	font-family: 'Open Sans',sans-serif;
+	font-weight: lighter;
+	font-size: 20px;
+	/*margin: 20px;*/
+	list-style: circle;
+	border-bottom: 1px solid black;
+	width: 300px;
+	padding-bottom: 5px;
+	margin-bottom: 60px;
+}
+.client-list-with-photos{
+	display: none;
+}
 .trade-marks {
 	margin: auto;
     width: 50%;
@@ -939,6 +960,27 @@ linear-gradient(to bottom,
 	margin-top: 50px;
 	padding-bottom: 40px;
 	border-bottom: 2px solid black;
+}
+.client-list {
+	width: 400px;
+	margin: auto;
+	text-align: center;
+	margin-top: 80px;
+	/*margin-left: 40px;*/
+}
+.client-list li {
+	font-family: 'Open Sans',sans-serif;
+	font-weight: lighter;
+	font-size: 30px;
+	/*margin: 20px;*/
+	list-style: circle;
+	border-bottom: 1px solid black;
+	width: 400px;
+	padding-bottom: 5px;
+	margin-bottom: 60px;
+}
+.client-list-with-photos{
+	display: none;
 }
 .trade-marks {
 	margin: auto;
@@ -1591,6 +1633,27 @@ linear-gradient(to bottom,
 	margin-top: 50px;
 	padding-bottom: 40px;
 	border-bottom: 2px solid black;
+}
+.client-list {
+	width: 350px;
+	margin: auto;
+	text-align: center;
+	margin-top: 80px;
+	/*margin-left: 40px;*/
+}
+.client-list li {
+	font-family: 'Open Sans',sans-serif;
+	font-weight: lighter;
+	font-size: 20px;
+	margin: 20px;
+	list-style: circle;
+	border-bottom: 1px solid black;
+	width: 290px;
+	padding-bottom: 5px;
+	margin-bottom: 50px;
+}
+.client-list-with-photos{
+	display: none;
 }
 .trade-marks {
 	margin: auto;
