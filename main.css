@@ -28,7 +28,9 @@ html, body {
 .footer {
 	background-color: #86869a;
 	margin-top: 30px;
-
+}
+.no-footer{
+	display: none;
 }
 /*-----------------------------------------*/
 /*EVERY PAGE HAS THESE STYLES*/
@@ -79,6 +81,7 @@ html, body {
 	background: white;
 }
 .responsive-nav-menu {
+	
 	display: none;
 	font-size: 50px;
 	width: 99%;
@@ -110,6 +113,12 @@ html, body {
 }
 .expand {
 	display: block;
+	position: fixed;
+	
+}
+.scrollable {
+overflow: hidden;
+position: fixed;
 }
 .pga-letters {
 	/*font-family: 'Cinzel', serif;*/
@@ -633,6 +642,9 @@ html, body {
 	margin-top: 30px;
 
 }
+.no-footer{
+	display: none;
+}
 h1, h2, h3, h4, h5, h6 { /*reset for mobile browsers */
 
 font-weight: normal;
@@ -718,7 +730,12 @@ font-weight: normal;
 	margin-top: 80px;
 }
 .expand {
+	position: fixed;
 	display: block;
+}
+.scrollable {
+overflow: hidden;
+position: fixed;
 }
 .pga-logo {
 	/*position: absolute;*/
@@ -1341,11 +1358,11 @@ font-weight: normal;
 .desktop-nav-menu li {
 	list-style: none;
 	float: left;
-	margin-right: 30px;
+	margin-right: 35px;
 	margin-top: 20px;
 }
 .desktop-nav-menu li:first-child {
-	margin-left: 30px;
+	margin-left: 15px;
 }
 .responsive-nav-menu a {
 	text-decoration: none;
